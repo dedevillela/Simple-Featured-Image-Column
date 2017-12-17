@@ -1,5 +1,6 @@
 # Simple Featured Image Column 🏛️
 [![GPL2 Licence](https://img.shields.io/badge/License-GPL2-blue.svg)](LICENSE) [![WordPress](https://img.shields.io/wordpress/v/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/)
+
 A simple [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and CMS - WordPress") plugin that displays the "Featured Image" column in admin post type listing. Supports Posts, Pages and Custom Posts.
 > *Um simples plugin do [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and CMS - WordPress") que mostra a coluna "Imagem Destacada" na listagem de publicações do admin. Suporta Posts, Páginas e Posts Customizados.*
 
@@ -29,6 +30,26 @@ As with most plugins, Simple Featured Image Column is open source. For issue tra
 
 ### Changelog (Log de Mudanças)
 
-## 1.0
+## 1.0.7
+* Added .po and .mo files for the pt_BR translation.
+
+## 1.0.6
+* Added .pot file for string translation.
+
+## 1.0.5
+* Changed plugin requirements to at least WordPress 4.6.
+
+## 1.0.4
+* Corrected internationalization settings.
+
+## 1.0.3
+* Added support for internationalization.
+
+## 1.0.2
+* Title adjusted in admin column, updated “No Featured Image” default thumbnail, added banner and screenshot.
+
+## 1.0.1
+* Added “No Featured Image” default thumbnail.
+
+## 1.0.0
 * Initial release.
-> *Lançamento inicial.*
