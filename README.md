@@ -1,4 +1,5 @@
-# Simple Featured Image Column [![GPL2 Licence](https://img.shields.io/badge/License-GPL2-blue.svg)](LICENSE) [![WordPress version 4.9](https://img.shields.io/badge/WordPress-v4.9-green.svg)](https://wordpress.org)
+# Simple Featured Image Column 🏛️
+[![GPL2 Licence](https://img.shields.io/badge/License-GPL2-blue.svg)](LICENSE) [![WordPress](https://img.shields.io/wordpress/v/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/)
 A simple [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and CMS - WordPress") plugin that displays the "Featured Image" column in admin post type listing. Supports Posts, Pages and Custom Posts.
 > *Um simples plugin do [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and CMS - WordPress") que mostra a coluna "Imagem Destacada" na listagem de publicações do admin. Suporta Posts, Páginas e Posts Customizados.*
 
