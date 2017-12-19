@@ -9,7 +9,7 @@
  * License: GPLv2+
  **/
 
-  if (!defined( 'ABSPATH' ) || preg_match('#'.basename( __FILE__ ).'#', $_SERVER['PHP_SELF'])) {
+  if (!defined('ABSPATH') || preg_match('#'.basename(__FILE__).'#', $_SERVER['PHP_SELF'])) {
   	die("Hey, dude! What are you doing here?");
   }
 
@@ -47,7 +47,7 @@
 				$columns = array();
 			}
 			$new = array();
-			foreach($columns as $key => $title){
+			foreach ($columns as $key => $title){
 				if ($key == 'title') {
 					$new['featured-image'] = /** @scrutinizer ignore-call */ __('Image', 'wordpress');
 				}
@@ -68,7 +68,7 @@
 				$size = 'thumbnail';
 				echo get_the_post_thumbnail($post_id, $size, 'style='.$style);
 			} else {
-				echo '<img style="'. $style .'" src="'. esc_url(plugins_url('images/default.png', __FILE__)) .'" />';
+				echo '<img style="'.$style.'" src="'.esc_url(plugins_url('images/default.png', __FILE__)).'" />';
 			}	
 		}
 	}
