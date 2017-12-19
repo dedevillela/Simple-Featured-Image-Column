@@ -33,7 +33,7 @@
 			});
 			
 			foreach ($post_types as $post_type) {
-				if (!post_type_supports($post_type, 'thumbnail')) {
+				if (!/** @scrutinizer ignore-call */ post_type_supports($post_type, 'thumbnail')) {
 					continue;
 				}
 				add_filter("manage_{$post_type}_posts_columns", array($this, 'columns'));
@@ -49,7 +49,7 @@
 			$new = array();
 			foreach($columns as $key => $title){
 				if ($key == 'title') {
-					$new['featured-image'] = __('Image', 'wordpress');
+					$new['featured-image'] = /** @scrutinizer ignore-call */ __('Image', 'wordpress');
 				}
 				$new[$key] = $title;
 			}
