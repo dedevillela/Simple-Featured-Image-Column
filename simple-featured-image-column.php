@@ -17,11 +17,11 @@
 
 	class Simple_Featured_Image_Column {
 
-		function __construct() {
+		public function __construct() {
 			add_action('admin_init', array($this, 'init'));
 		}
 
-		function init() {
+		private function init() {
 
 			$post_types = apply_filters('Simple_Featured_Image_Column_post_types', get_post_types(array('public' => true)));
 			if (empty($post_types)) {
@@ -41,7 +41,7 @@
 			}
 		}
 
-		function columns($columns) {
+		private function columns($columns) {
 			
 			if (!is_array($columns)) {
 				$columns = array();
@@ -56,7 +56,7 @@
 			return $new;
 		}
 
-		function column_data($column_name, $post_id) {
+		private function column_data($column_name, $post_id) {
 			
 			if ('featured-image' != $column_name) {
 				return;
