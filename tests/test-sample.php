@@ -1,20 +1,20 @@
 <?php
 /**
- * Class SampleTest
+ * Class SimpleTest
  *
- * @package Sample_Plugin
+ * @package Simple_Featured_Image_Column
  */
 
 /**
- * Sample test case.
+ * Simple test case.
  */
-class SampleTest extends WP_UnitTestCase {
+class SimpleTest extends WP_UnitTestCase {
 
 	/**
 	 * A single example test.
 	 */
-	function test_sample() {
-		// Replace this with some actual testing code.
+	function test_simple() {
+		// Replace this with some actual testing code... in the future!
 		$this->assertTrue( true );
 	}
 }
