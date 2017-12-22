@@ -1,9 +1,9 @@
 === Simple Featured Image Column ===
 Contributors: dedevillela
 Tags: admin, featured image, column
-Requires at least: 3.0
-Tested up to: 4.9
-Stable tag: 1.0.0
+Requires at least: 4.6
+Tested up to: 4.9.1
+Stable tag: 1.0.7
 
 A simple plugin that displays the "Featured Image" column in admin post type listing. Supports Post, Pages and Custom Posts.
 
@@ -28,5 +28,26 @@ As with most plugins, Simple Featured Image Column is open source. For issue tra
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.7 =
+* Added .po and .mo files for the pt_BR translation.
+
+= 1.0.6 =
+* Added .pot file for string translation.
+
+= 1.0.5 =
+* Changed plugin requirements to at least WordPress 4.6.
+
+= 1.0.4 =
+* Corrected internationalization settings.
+
+= 1.0.3 =
+* Added support for internationalization.
+
+= 1.0.2 =
+* Title adjusted in admin column, updated “No Featured Image” default thumbnail, added banner and screenshot.
+
+= 1.0.1 =
+* Added “No Featured Image” default thumbnail.
+
+= 1.0.0 =
 * Initial release.
