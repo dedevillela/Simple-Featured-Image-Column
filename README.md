@@ -16,40 +16,40 @@ A simple [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and 
 - Custom "No Featured Image" thumbnail.
 > *Miniatura "Sem Imagem Destacada" personalizada.*
 
-### Contributing (Contribuições)
+## Contributing (Contribuições)
 As with most plugins, Simple Featured Image Column is open source. For issue tracking, further information and anyone wishing to get involved and help contribute to this project can do so over on GitHub.
 > *Assim como a maioria dos plugins, Simple Featured Image Column é código aberto. Para o rastreamento de problemas, outras informações e qualquer um que queira se involver e ajudar a contribuir neste projeto pode fazê-lo no GitHub.*
 
-### Installation (Instalação)
+## Installation (Instalação)
 1. Install the plugin through the WordPress plugins Menu, OR upload and unzip to wp-content/plugins.
 > *Instale o pllugin através do menu Plugins no WordPress, OU envie e descompacte o arquivo em wp-content/plugins.*
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 > *Ative o plugin através do menu 'Plugins' no WordPress.*
-3. Access your Posts, Pages or Custom Posts in your main administration menu.
-> *Acesse seus Posts, Páginas ou Posts Personalizados no menu administrativo principal.*
+3. Access your Posts, Pages or Custom Posts in your main administration menu to see the "Featured Image" column.
+> *Acesse seus Posts, Páginas ou Posts Personalizados no menu administrativo principal para ver a coluna "Imagem Destacada".*
 
 ### Changelog (Log de Mudanças)
 
-## 1.0.7
+#### 1.0.7
 * Added .po and .mo files for the pt_BR translation.
 
-## 1.0.6
+#### 1.0.6
 * Added .pot file for string translation.
 
-## 1.0.5
+#### 1.0.5
 * Changed plugin requirements to at least WordPress 4.6.
 
-## 1.0.4
+#### 1.0.4
 * Corrected internationalization settings.
 
-## 1.0.3
+#### 1.0.3
 * Added support for internationalization.
 
-## 1.0.2
+#### 1.0.2
 * Title adjusted in admin column, updated “No Featured Image” default thumbnail, added banner and screenshot.
 
-## 1.0.1
+#### 1.0.1
 * Added “No Featured Image” default thumbnail.
 
-## 1.0.0
+#### 1.0.0
 * Initial release.
