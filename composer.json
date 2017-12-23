@@ -1,6 +1,8 @@
 {
   "name": "dedevillela/simple-featured-image-column",
-  "description": "",
+  "version": "1.0.7",
+  "description": "A simple WordPress plugin that displays the Featured Image column in admin post type listing. Supports Posts, Pages and Custom Posts.",
+  "license": "GPL2",
   "require": {
     "php": "^5.6 || ^7.2"
   }
