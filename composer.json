@@ -1,0 +1,7 @@
+{
+  "name": "dedevillela/Simple-Featured-Image-Column",
+  "description": "",
+  "require": {
+    "php": "^5.6 || ^7.2"
+  }
+}
