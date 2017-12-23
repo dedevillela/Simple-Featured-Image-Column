@@ -21,11 +21,11 @@
     "phpunit/phpunit": "5.7"
   },
   "autoload": {
-    "psr-0": { "Simple-Featured-Image-Column": "./" }
+    "psr-4": { "Simple-Featured-Image-Column": "./" }
   },
   "scripts": {
     "test": [
-      "./vendor/bin/phpcs --standard=psr0 ./",
+      "./vendor/bin/phpcs --standard=psr2 ./",
       "./vendor/bin/phpunit"
     ]
   }
