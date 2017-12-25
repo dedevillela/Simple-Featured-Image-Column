@@ -53,3 +53,5 @@ As with most plugins, Simple Featured Image Column is open source. For issue tra
 
 #### 1.0.0
 * Initial release.
+
+###### _Made with ❤️ in Belo Horizonte, 🇧🇷_
