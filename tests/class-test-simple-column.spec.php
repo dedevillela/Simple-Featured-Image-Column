@@ -17,7 +17,7 @@ class Test_Simple_Column extends WP_UnitTestCase {
  * @access   private
  * @var      string    $plugin_name    The ID of this plugin.
  */
-  private $plugin_name = 'simple-featured-image-column';
+	private $plugin_name = 'simple-featured-image-column';
 	
 /**
  * The version of this plugin.
@@ -26,5 +26,20 @@ class Test_Simple_Column extends WP_UnitTestCase {
  * @access   private
  * @var      string    $version    The current version of this plugin.
  */
-  private $version = '1.0.8';
+	private $version = '1.0.8';
+	
+	function setUp() {
+		parent::setUp();
+		$this->sfic = new Simple_Featured_Image_Column;
+	}
+	
+	function create_post( $post = array() ) {
+		$defaults = array(
+			'post_title' => 'My Post',
+			'post_content' => 'This is my post',
+			'post_status' => 'publish',
+			'post_author' => 1,
+		);
+		return wp_insert_post( array_merge( $defaults, $post ) );
+	}
 }
