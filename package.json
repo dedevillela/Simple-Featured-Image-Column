@@ -1,7 +1,7 @@
 
 {
   "name": "Simple-Featured-Image-Column",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "Gruntfile.js",
   "author": "Andre Aguiar Villela",
   "devDependencies": {
