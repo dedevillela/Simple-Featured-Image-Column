@@ -2,12 +2,12 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package Simple_Featured_Image_Column
+ * @package Json_Wp_Post_Parser
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 if ( ! $_tests_dir ) {
-	$_tests_dir = '/tmp/wordpress-tests-lib';
+  $_tests_dir = '/tmp/wordpress-tests-lib';
 }
 
 // Give access to tests_add_filter() function.
@@ -17,7 +17,7 @@ require_once $_tests_dir . '/includes/functions.php';
  * Manually load the plugin being tested.
  */
 function _manually_load_plugin() {
-	require dirname( dirname( __FILE__ ) ) . '/simple-featured-image-column.php';
+  require dirname( dirname( __FILE__ ) ) . '/src/json-wp-post-parser.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 
