@@ -3,7 +3,7 @@
  * Plugin Name: Simple Featured Image Column
  * Plugin URI: https://github.com/dedevillela/Simple-Featured-Image-Column/
  * Description: A simple plugin that displays the "Featured Image" column in admin post type listing. Supports Post, Pages and Custom Posts.
- * Version: 1.0.7
+ * Version: 1.0.8
  * Author: Andre Aguiar Villela
  * Author URI: https://dedevillela.com/
  * License: GPLv2+
