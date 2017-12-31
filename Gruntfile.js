@@ -30,7 +30,7 @@ module.exports = function( grunt ) {
 			target: {
 				options: {
 					domainPath: '/languages',
-					mainFile: 'simple-featured-image-column.php',
+					mainFile: '/src/SFIC/class-simple-featured-image-column.php',
 					potFilename: 'simple-featured-image-column.pot',
 					potHeaders: {
 						poedit: true,
