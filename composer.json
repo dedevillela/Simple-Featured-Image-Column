@@ -18,7 +18,11 @@
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.8",
-    "phpunit/phpunit": "^5.6"
+    "dealerdirect/phpcodesniffer-composer-installer": "*",
+    "jakub-onderka/php-console-highlighter": "*",
+    "jakub-onderka/php-parallel-lint": "*",
+    "infinum/coding-standards-wp": "*",
+    "phpunit/phpunit": "^6.4"
   },
   "autoload": {
     "psr-0": {
