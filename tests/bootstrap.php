@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package Json_Wp_Post_Parser
+ * @package Simple_Featured_Image_Column
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
