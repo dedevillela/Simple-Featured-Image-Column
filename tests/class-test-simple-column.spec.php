@@ -35,25 +35,15 @@ class Test_Simple_Column extends WP_UnitTestCase {
 		$this->sfic = new Simple_Featured_Image_Column;
 	}
 	
-	function create_post( $post = array() ) {
-		$defaults = array(
-			'post_title' => 'My Post',
-			'post_content' => 'This is my post',
-			'post_status' => 'publish',
-			'post_author' => 1,
-		);
-		return wp_insert_post( array_merge( $defaults, $post ) );
-	}
-	
 /**
- * Test the column_data method
+ * Test the columns method
  *
- * Test if the method column_data exists.
+ * Test if the method columns exists.
  *
  * @since 1.0.8
  */
   public function test_method_type() {
-    $featured_image_column = new Simple_Featured_Image_Column( $this->plugin_name, $this->version );
-    $this->assertTrue( method_exists( $featured_image_column , 'column_data' ) );
+    $columns = new Simple_Featured_Image_Column( $this->plugin_name, $this->version );
+    $this->assertTrue( method_exists( $columns , 'columns' ) );
   }
 }
