@@ -1,34 +1,34 @@
 {
-  "name": "dedevillela/simple-featured-image-column",
-  "version": "1.0.8",
-  "description": "A simple WordPress plugin that displays the Featured Image column in admin post type listing. Supports Posts, Pages and Custom Posts.",
-  "homepage": "https://github.com/dedevillela/Simple-Featured-Image-Column",
-  "license": "GPL2",
-  "authors": [
-        {
-            "name": "André Villela",
-            "email": "dede.villela@gmail.com",
-            "homepage": "https://dedevillela.com",
-            "role": "Developer"
-        }
-    ],
-  "minimum-stability": "dev",
-  "require": {
-    "php": "^5.6 || ^7.1"
-  },
-  "require-dev": {
-    "squizlabs/php_codesniffer": "^2.8",
-    "phpunit/phpunit": "^5.7"
-  },
-  "autoload": {
-    "autoload": {
-      "psr-0": { "": "src/" }
-    }
-  },
-  "scripts": {
-    "test": [
-      "./vendor/bin/phpcs --standard=psr2 ./",
-      "./vendor/bin/phpunit"
-    ]
-  }
+	"name": "dedevillela/simple-featured-image-column",
+	"version": "1.0.8",
+	"description": "A simple WordPress plugin that displays the Featured Image column in admin post type listing. Supports Posts, Pages and Custom Posts.",
+	"homepage": "https://github.com/dedevillela/Simple-Featured-Image-Column",
+	"license": "GPL2",
+	"authors": [
+		{
+			"name": "André Villela",
+			"email": "dede.villela@gmail.com",
+			"homepage": "https://dedevillela.com",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^5.6 || ^7.1"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^2.8",
+		"phpunit/phpunit": "^5.7"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "src/"
+		}
+	},
+	"scripts": {
+		"test": [
+			"./vendor/bin/phpcs --standard=psr2 ./",
+			"./vendor/bin/phpunit"
+		]
+	}
 }
