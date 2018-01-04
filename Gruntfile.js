@@ -13,7 +13,7 @@ module.exports = function( grunt ) {
 			},
 			target: {
 				files: {
-					src: [ '*.php', '**/*.php', '**/src/SFIC/*.php', '!node_modules/**', '!tests/**', '!php-tests/**', '!bin/**' ]
+					src: [ '*.php', '**/*.php', '**/src/*.php', '!node_modules/**', '!tests/**', '!php-tests/**', '!bin/**' ]
 				}
 			}
 		},
@@ -30,7 +30,7 @@ module.exports = function( grunt ) {
 			target: {
 				options: {
 					domainPath: '/languages',
-					mainFile: '/src/SFIC/class-simple-featured-image-column.php',
+					mainFile: '/src/class-simple-featured-image-column.php',
 					potFilename: 'simple-featured-image-column.pot',
 					potHeaders: {
 						poedit: true,
