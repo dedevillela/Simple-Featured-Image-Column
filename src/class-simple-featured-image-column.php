@@ -72,5 +72,7 @@
 			}	
 		}
 	}
+	  
 	$featured_image_column = new Simple_Featured_Image_Column;
+	  
 };
