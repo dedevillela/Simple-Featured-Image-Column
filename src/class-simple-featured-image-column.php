@@ -28,8 +28,8 @@
 				return;
 			}
 
-			add_action('admin_head', function() { 
-				echo '<style>th#featured-image  { width: 100px; }</style>'."\r\n"; 
+			add_action('admin_head', function() {
+				return $this->getResponse()->setBody('<style>th#featured-image  { width: 100px; }</style>'."\r\n"); 
 			});
 			
 			foreach ($post_types as $post_type) {
