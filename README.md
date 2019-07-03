@@ -22,30 +22,30 @@ As with most plugins, Simple Featured Image Column is open source. For issue tra
 ### Changelog
 
 #### 1.0.8
-*   Added PHPUnit testing.
+-   Added PHPUnit testing.
 
 #### 1.0.7
-*   Added .po and .mo files for the pt_BR translation.
+-   Added .po and .mo files for the pt_BR translation.
 
 #### 1.0.6
-*   Added .pot file for string translation.
+-   Added .pot file for string translation.
 
 #### 1.0.5
-*   Changed plugin requirements to at least WordPress 4.6.
+-   Changed plugin requirements to at least WordPress 4.6.
 
 #### 1.0.4
-*   Corrected internationalization settings.
+-   Corrected internationalization settings.
 
 #### 1.0.3
-*   Added support for internationalization.
+-   Added support for internationalization.
 
 #### 1.0.2
 *   Title adjusted in admin column, updated “No Featured Image” default thumbnail, added banner and screenshot.
 
 #### 1.0.1
-*   Added “No Featured Image” default thumbnail.
+-   Added “No Featured Image” default thumbnail.
 
 #### 1.0.0
-*   Initial release.
+-   Initial release.
 
 ###### _Made with ❤️ in Belo Horizonte, 🇧🇷_
