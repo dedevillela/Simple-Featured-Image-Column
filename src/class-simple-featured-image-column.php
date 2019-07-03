@@ -9,7 +9,7 @@
  * License: GPLv2+
  **/
 
-  if (!defined('ABSPATH') || preg_match('#'.basename(__FILE__).'#', $_SERVER['PHP_SELF'])) {
+  if (!defined('ABSPATH') || preg_match('#'.basename(__FILE__).'#', filter_input(INPUT_SERVER, 'PHP_SELF');)) {
   	die("Hey, dude! What are you doing here?");
   }
 
