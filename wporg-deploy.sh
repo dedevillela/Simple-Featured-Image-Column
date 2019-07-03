@@ -10,7 +10,7 @@
 
 # main config
 PLUGINSLUG="simple-featured-image-column"
-CURRENTDIR=`pwd`
+CURRENTDIR=$(pwd)
 MAINFILE="class-simple-featured-image-column.php" # this should be the name of your main php file in the wordpress plugin
 
 # git config
@@ -35,13 +35,13 @@ echo ".........................................."
 echo 
 
 # Check version in readme.txt is the same as plugin file
-NEWVERSION1=`grep "^Stable tag" $GITPATH/readme.txt | awk -F' ' '{print $3}'`
+NEWVERSION1=$(grep "^Stable tag" $GITPATH/readme.txt | awk -F' ' '{print $3}')
 echo "readme.txt version: $NEWVERSION1"
-NEWVERSION2=`grep "^Stable tag" $GITPATH/README.md | awk -F' ' '{print $3}'`
+NEWVERSION2=$(grep "^Stable tag" $GITPATH/README.md | awk -F' ' '{print $3}')
 echo "README.md version: $NEWVERSION2"
-NEWVERSION3=`grep -m 1 "^#### [0-9\\.]*$" $GITPATH/CHANGELOG.md | awk -F' ' '{print $2}'`
+NEWVERSION3=$(grep -m 1 "^#### [0-9\\.]*$" $GITPATH/CHANGELOG.md | awk -F' ' '{print $2}')
 echo "CHANGELOG.md version: $NEWVERSION3"
-NEWVERSION4=`grep "^ \\* Version" $GITPATH/$MAINFILE | awk -F' ' '{print $3}'`
+NEWVERSION4=$(grep "^ \\* Version" $GITPATH/$MAINFILE | awk -F' ' '{print $3}')
 echo "$MAINFILE version: $NEWVERSION4"
 echo
 
