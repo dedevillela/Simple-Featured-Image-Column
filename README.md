@@ -40,7 +40,7 @@ As with most plugins, Simple Featured Image Column is open source. For issue tra
 -   Added support for internationalization.
 
 #### 1.0.2
-*   Title adjusted in admin column, updated “No Featured Image” default thumbnail, added banner and screenshot.
+-   Title adjusted in admin column, updated “No Featured Image” default thumbnail, added banner and screenshot.
 
 #### 1.0.1
 -   Added “No Featured Image” default thumbnail.
@@ -48,4 +48,4 @@ As with most plugins, Simple Featured Image Column is open source. For issue tra
 #### 1.0.0
 -   Initial release.
 
-###### _Made with ❤️ in Belo Horizonte, 🇧🇷_
+##### _Made with ❤️ in Belo Horizonte, 🇧🇷_
