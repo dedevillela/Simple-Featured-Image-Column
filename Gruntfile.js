@@ -1,19 +1,19 @@
 module.exports = function( grunt ) {
 
-	'use strict';
-	var banner = '/**\n * <%= pkg.homepage %>\n * Copyright (c) <%= grunt.template.today("yyyy") %>\n * This file is generated automatically. Do not edit.\n */\n';
+	"use strict";
+	var banner = "/**\n * <%= pkg.homepage %>\n * Copyright (c) <%= grunt.template.today("yyyy") %>\n * This file is generated automatically. Do not edit.\n */\n";
 	// Project configuration
 	grunt.initConfig( {
 
-		pkg: grunt.file.readJSON( 'package.json' ),
+		pkg: grunt.file.readJSON( "package.json" ),
 
 		addtextdomain: {
 			options: {
-				textdomain: 'simple-featured-image-column',
+				textdomain: "simple-featured-image-column",
 			},
 			target: {
 				files: {
-					src: [ '*.php', '**/*.php', '**/src/*.php', '!node_modules/**', '!tests/**', '!php-tests/**', '!bin/**' ]
+					src: [ "*.php", "**/*.php", "**/src/*.php", "!node_modules/**", "!tests/**", "!php-tests/**", "!bin/**" ]
 				}
 			}
 		},
@@ -21,7 +21,7 @@ module.exports = function( grunt ) {
 		wp_readme_to_markdown: {
 			your_target: {
 				files: {
-					'README.md': 'readme.txt'
+					"README.md": "readme.txt"
 				}
 			},
 		},
@@ -29,25 +29,25 @@ module.exports = function( grunt ) {
 		makepot: {
 			target: {
 				options: {
-					domainPath: '/languages',
-					mainFile: '/src/class-simple-featured-image-column.php',
-					potFilename: 'simple-featured-image-column.pot',
+					domainPath: "/languages",
+					mainFile: "/src/class-simple-featured-image-column.php",
+					potFilename: "simple-featured-image-column.pot",
 					potHeaders: {
 						poedit: true,
-						'x-poedit-keywordslist': true
+						"x-poedit-keywordslist": true
 					},
-					type: 'wp-plugin',
+					type: "wp-plugin",
 					updateTimestamp: true
 				}
 			}
 		},
 	} );
 
-	grunt.loadNpmTasks( 'grunt-wp-i18n' );
-	grunt.loadNpmTasks( 'grunt-wp-readme-to-markdown' );
-	grunt.registerTask( 'i18n', ['addtextdomain', 'makepot'] );
-	grunt.registerTask( 'readme', ['wp_readme_to_markdown'] );
+	grunt.loadNpmTasks( "grunt-wp-i18n" );
+	grunt.loadNpmTasks( "grunt-wp-readme-to-markdown" );
+	grunt.registerTask( "i18n", ["addtextdomain", "makepot"] );
+	grunt.registerTask( "readme", ["wp_readme_to_markdown"] );
 
-	grunt.util.linefeed = '\n';
+	grunt.util.linefeed = "\n";
 
 };
