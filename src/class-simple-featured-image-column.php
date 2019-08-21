@@ -47,7 +47,7 @@
 				$columns = array();
 			}
 			$new = array();
-			foreach ($columns as $key => $title){
+			foreach ($columns as $key => $title) {
 				if ($key == 'title') {
 					$new['featured-image'] = /** @scrutinizer ignore-call */ __('Image', 'wordpress');
 				}
