@@ -39,6 +39,7 @@ if (!class_exists('Simple_Featured_Image_Column')) {
 				}
 				/** @scrutinizer ignore-call */
 				add_filter("manage_{$post_type}_posts_columns", array($this, 'columns'));
+				/** @scrutinizer ignore-call */
 				add_action("manage_{$post_type}_posts_custom_column", array($this, 'column_data'), 10, 2);
 			}
 		}
@@ -68,9 +69,9 @@ if (!class_exists('Simple_Featured_Image_Column')) {
 
 			if (/** @scrutinizer ignore-call */ has_post_thumbnail($post_id)) {
 				$size = 'thumbnail';
-				return $this->getResponse()->setBody(/** @scrutinizer ignore-call */ get_the_post_thumbnail($post_id, $size, 'style='.$style));
+				return $this->/** @scrutinizer ignore-call */ getResponse()->setBody(/** @scrutinizer ignore-call */ get_the_post_thumbnail($post_id, $size, 'style='.$style));
 			} else {
-				return $this->getResponse()->setBody('<img style="'.$style.'" src="'./** @scrutinizer ignore-call */ esc_url(/** @scrutinizer ignore-call */ plugins_url('images/default.png', __FILE__)).'" />');
+				return $this->/** @scrutinizer ignore-call */ getResponse()->setBody('<img style="'.$style.'" src="'./** @scrutinizer ignore-call */ esc_url(/** @scrutinizer ignore-call */ plugins_url('images/default.png', __FILE__)).'" />');
 			}	
 		}
 	}
