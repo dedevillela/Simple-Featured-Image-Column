@@ -68,7 +68,7 @@
 				$size = 'thumbnail';
 				return $this->getResponse()->setBody(get_the_post_thumbnail($post_id, $size, 'style='.$style));
 			} else {
-				return $this->getResponse()->setBody('<img style="'.$style.'" src="'.esc_url(plugins_url('images/default.png', __FILE__)).'"); />';
+		return $this->getResponse()->setBody('<img style="'.$style.'" src="'.esc_url(plugins_url('images/default.png', __FILE__)).'" />');
 			}	
 		}
 	}
