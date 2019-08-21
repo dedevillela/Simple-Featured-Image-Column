@@ -32,6 +32,6 @@ class Test_Simple_Column extends WP_UnitTestCase {
 	function setUp() {
 		parent::setUp();
 		$this->sfic = new Simple_Featured_Image_Column;
-		$this->assertTrue( true );
+		$this->assertTrue(true);
 	}
 }
