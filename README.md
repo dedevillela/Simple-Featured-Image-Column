@@ -36,6 +36,10 @@
 	<a href="https://saythanks.io/to/dedevillela">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
+  </a>
+	<a href="https://profiles.wordpress.org/dedevillela/">
+      <img src="https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-DedeVillela-cc1414.svg">
+  </a>
 </p>
 
 A simple [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and CMS - WordPress") plugin that displays the "Featured Image" column in admin post type listing. Supports Posts, Pages and Custom Posts.
