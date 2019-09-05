@@ -1,5 +1,42 @@
-# Simple Featured Image Column 🏛️
-[![GPL2 Licence](https://img.shields.io/badge/License-GPL2-blue.svg)](LICENSE) [![Scrutinizer](https://img.shields.io/scrutinizer/g/dedevillela/Simple-Featured-Image-Column.svg)](https://scrutinizer-ci.com/g/dedevillela/Simple-Featured-Image-Column/) [![Build Status](https://travis-ci.org/dedevillela/Simple-Featured-Image-Column.svg?branch=master)](https://travis-ci.org/dedevillela/Simple-Featured-Image-Column) [![Code Intelligence Status](https://scrutinizer-ci.com/g/dedevillela/Simple-Featured-Image-Column/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) [![Code Climate](https://codeclimate.com/github/dedevillela/Simple-Featured-Image-Column.png)](https://codeclimate.com/github/dedevillela/Simple-Featured-Image-Column) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/336dee05806e42258b87ef16514747f8)](https://www.codacy.com/app/dedevillela/Simple-Featured-Image-Column?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dedevillela/Simple-Featured-Image-Column&amp;utm_campaign=Badge_Grade) [![WordPress](https://img.shields.io/wordpress/v/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/) [![WordPress plugin](https://img.shields.io/wordpress/plugin/dt/simple-featured-image-column.svg)](https://wordpress.org/plugins/simple-featured-image-column/advanced/) [![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/simple-featured-image-column.svg)](https://wordpress.org/support/plugin/simple-featured-image-column/reviews/) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/dedevillela)
+<h1 align="center">
+	Simple Featured Image Column 🏛️
+</h1>
+
+<p align="center">
+  <a href="https://github.com/dedevillela/Simple-Featured-Image-Column/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/License-GPL2-blue.svg">
+  </a>
+	<a href="https://scrutinizer-ci.com/g/dedevillela/Simple-Featured-Image-Column/">
+      <img src="https://img.shields.io/scrutinizer/g/dedevillela/Simple-Featured-Image-Column.svg">
+  </a>
+	<a href="https://travis-ci.org/dedevillela/Simple-Featured-Image-Column">
+      <img src="https://travis-ci.org/dedevillela/Simple-Featured-Image-Column.svg?branch=master">
+  </a>
+	<a href="https://scrutinizer-ci.com/code-intelligence">
+      <img src="https://scrutinizer-ci.com/g/dedevillela/Simple-Featured-Image-Column/badges/code-intelligence.svg?b=master">
+  </a>
+	<a href="https://codeclimate.com/github/dedevillela/Simple-Featured-Image-Column">
+      <img src="https://codeclimate.com/github/dedevillela/Simple-Featured-Image-Column.png">
+  </a>
+	<a href="https://www.codacy.com/app/dedevillela/Simple-Featured-Image-Column?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dedevillela/Simple-Featured-Image-Column&amp;utm_campaign=Badge_Grade">
+      <img src="https://api.codacy.com/project/badge/Grade/336dee05806e42258b87ef16514747f8">
+  </a>
+	<a href="https://wordpress.org/plugins/simple-featured-image-column/">
+      <img src="https://img.shields.io/wordpress/v/simple-featured-image-column.svg">
+  </a>
+	<a href="https://wordpress.org/plugins/simple-featured-image-column/">
+      <img src="https://img.shields.io/wordpress/plugin/v/simple-featured-image-column.svg">
+  </a>
+	<a href="https://wordpress.org/plugins/simple-featured-image-column/advanced/">
+      <img src="https://img.shields.io/wordpress/plugin/dt/simple-featured-image-column.svg">
+  </a>
+	<a href="https://wordpress.org/support/plugin/simple-featured-image-column/reviews/">
+      <img src="https://img.shields.io/wordpress/plugin/r/simple-featured-image-column.svg">
+  </a>
+	<a href="https://saythanks.io/to/dedevillela">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+</p>
 
 A simple [WordPress](https://wordpress.org "Blog Tool, Publishing Platform, and CMS - WordPress") plugin that displays the "Featured Image" column in admin post type listing. Supports Posts, Pages and Custom Posts.
 
