@@ -33,7 +33,9 @@
 	<a href="https://wordpress.org/support/plugin/simple-featured-image-column/reviews/">
       <img src="https://img.shields.io/wordpress/plugin/r/simple-featured-image-column.svg">
   </a>
-	![ViewCount](https://views.whatilearened.today/views/github/dedevillela/simple-featured-image-column.svg)
+	<a href="#">
+		<img src="https://views.whatilearened.today/views/github/dedevillela/simple-featured-image-column.svg">
+	</a>
 	<a href="https://saythanks.io/to/dedevillela">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
