@@ -3,8 +3,8 @@ Contributors: dedevillela
 Tags: admin, featured image, column
 Requires PHP: 5.6
 Requires at least: 4.6
-Tested up to: 5.5.1
-Stable tag: 1.0.7
+Tested up to: 5.8
+Stable tag: 1.0.8
 
 A simple plugin that displays the "Featured Image" column in admin post type listing. Supports Post, Pages and Custom Posts.
 
